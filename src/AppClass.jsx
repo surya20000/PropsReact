@@ -8,7 +8,7 @@ export default class AppClass extends Component {
       <div>
         <h1>Kalvium Gallary</h1>
         <div className="">
-          {imgData.map((image) => (
+          {imgData.map((image,index) => (
             <div className="" key={index}>
               <img src={image.img} alt="" />
             </div>
